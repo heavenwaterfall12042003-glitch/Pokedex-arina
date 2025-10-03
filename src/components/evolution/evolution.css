@@ -1,0 +1,101 @@
+.evo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.evo__title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #6b7280;
+  margin: 0;
+}
+.evo__loading,
+.evo__empty,
+.evo__error {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.evo__paths {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.evo__path {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.evo__node {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.evo__arrow {
+  color: #9ca3af;
+  font-weight: 700;
+}
+
+.evo__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  min-width: 120px;
+}
+
+.evo__card {
+  display: grid;
+  place-items: center;
+  width: 120px;
+  height: 120px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #fff;
+  text-decoration: none;
+  color: #111827;
+}
+.evo__card:hover {
+  background: #f9fafb;
+}
+
+.evo__img {
+  width: 72px;
+  height: 72px;
+  image-rendering: pixelated;
+}
+.evo__name {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.evo__meta {
+  display: inline-flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.evo__pill {
+  font-size: 12px;
+  background: #f3f4f6;
+  border-radius: 999px;
+  padding: 2px 8px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .evo__card {
+    background: #0b0f17;
+    border-color: #1f2937;
+    color: #e5e7eb;
+  }
+  .evo__pill {
+    background: #111827;
+  }
+}
+
+.evo__broken {
+  color: #b91c1c;
+  font-size: 12px;
+}

@@ -1,0 +1,31 @@
+.root {
+  max-width: 980px;
+  margin: 24px auto;
+  padding: 0 12px;
+  display: grid;
+  gap: 16px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px;
+}
+.card {
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  color: var(--card-fg);
+  border-radius: 12px;
+  padding: 12px;
+}
+.name {
+  font-weight: 600;
+}
+.sub {
+  color: #6b7280;
+  font-size: 13px;
+}
+.team {
+  display: grid;
+  gap: 6px;
+  margin-top: 8px;
+}

@@ -1,0 +1,25 @@
+.card {
+  background: #f3f4f6;
+  border-radius: 12px;
+  padding: 12px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #222;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.07);
+  transition: box-shadow 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  }
+}
+
+.image {
+  width: 92px;
+  margin-bottom: 8px;
+}
+
+.name {
+  font-weight: 600;
+  text-transform: capitalize;
+}

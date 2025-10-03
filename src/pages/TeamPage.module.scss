@@ -1,0 +1,40 @@
+.container {
+  max-width: 980px;
+  margin: 24px auto;
+  padding: 12px;
+}
+
+.title {
+  margin-bottom: 12px;
+}
+
+.emptyMessage {
+  opacity: 0.8;
+  margin-bottom: 12px;
+}
+
+.clearBtn {
+  margin-bottom: 16px;
+  padding: 8px 12px;
+  background: #ef4444;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+.draggable {
+  border: 2px dashed transparent;
+  border-radius: 12px;
+  transition: border-color 0.15s;
+}
+
+.over {
+  border-color: #93c5fd;
+}

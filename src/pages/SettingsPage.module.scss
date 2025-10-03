@@ -1,0 +1,47 @@
+.root {
+  max-width: 780px;
+  margin: 24px auto;
+  padding: 0 12px;
+  display: grid;
+  gap: 16px;
+}
+.card {
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  color: var(--card-fg);
+  border-radius: 12px;
+  padding: 16px;
+}
+.row {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 12px;
+  align-items: center;
+}
+.input {
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  width: 100%;
+}
+.btn {
+  height: 36px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--chip-bg);
+  padding: 0 12px;
+  cursor: pointer;
+}
+.note {
+  color: #6b7280;
+  font-size: 13px;
+}
+.err {
+  color: #b91c1c;
+  font-size: 14px;
+}
+@media (max-width: 600px) {
+  .row {
+    grid-template-columns: 1fr;
+  }
+}

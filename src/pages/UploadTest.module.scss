@@ -1,0 +1,42 @@
+.container {
+  max-width: 400px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.inputFile {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.loading {
+  font-style: italic;
+  color: #666;
+}
+
+.preview {
+  margin-top: 20px;
+}
+
+.preview img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.preview a {
+  display: block;
+  margin-top: 12px;
+  word-break: break-all;
+  color: #3182ce;
+  text-decoration: none;
+}
+
+.preview a:hover {
+  text-decoration: underline;
+}

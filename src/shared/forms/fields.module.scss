@@ -1,0 +1,36 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.label {
+  font-size: 13px;
+  color: var(--muted);
+}
+.input {
+  height: 38px;
+  padding: 0 10px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  color: var(--card-fg);
+}
+.passbox {
+  position: relative;
+}
+.eye {
+  position: absolute;
+  right: 6px;
+  top: 6px;
+  height: 26px;
+  border: 1px solid var(--border);
+  background: var(--chip-bg);
+  color: var(--card-fg);
+  border-radius: 6px;
+  padding: 0 6px;
+  cursor: pointer;
+}
+.error {
+  color: #b91c1c;
+  font-size: 12px;
+}

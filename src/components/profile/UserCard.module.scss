@@ -1,0 +1,32 @@
+.card {
+  border: 1px dashed var(--border);
+  border-radius: 12px;
+  padding: 12px;
+  background: var(--chip-bg);
+}
+.row {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 8px;
+  align-items: center;
+}
+.k {
+  color: #6b7280;
+  font-size: 14px;
+}
+.v {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+.copy {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  height: 28px;
+  padding: 0 8px;
+  background: var(--card-bg);
+  cursor: pointer;
+}
+@media (max-width: 480px) {
+  .row {
+    grid-template-columns: 1fr;
+  }
+}
